@@ -1,0 +1,587 @@
+
+/* end media queries */
+div.scrollmenu {
+  /* background-color: #fdf2e9; */
+  overflow: auto;
+  /* white-space: nowrap; */
+  position: relative;
+  /* left: 200px; */
+}
+.a_plan{
+  background-color: #fdf2e9;
+}
+
+
+
+.scrollmenu>a {
+  float: right;
+he
+}
+
+.try {
+  float: right;
+
+}
+
+.left {
+  position: absolute;
+  left: 100px;
+}
+
+.tryy {
+  background-color: #e8862f;
+}
+
+.tryy>a {
+  color: white;
+}
+
+.text_blanc {
+  color: white;
+  font-weight: bold;
+}
+
+.text_noire {
+  color: black;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+
+}
+
+.try {
+  background-color: #e8862f;
+  border-radius: 3px;
+}
+
+.learn {
+  background-color: white;
+}
+
+div.scrollmenu a:hover {
+  background-color: #ac6c6c;
+}
+
+/* section .flex-container */
+.flex-container {
+  display: flex;
+
+}
+
+.flex-container>div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+img {
+  width: 219px;
+  height: 200px;
+}
+
+.i1 {
+  position: relative;
+  left: 40px;
+}
+
+.i2 {
+  position: relative;
+  left: -97px;
+  top: 85px;
+}
+
+.i:nth-child(1) {
+  z-index: 1;
+}
+
+.i:nth-child(2) {
+  z-index: 2;
+}
+
+.i:nth-child(3) {
+  z-index: 3;
+}
+
+.featured {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.featured>div {
+  padding: 10px;
+  margin: 20px;
+}
+
+
+.dolar {
+  position: relative;
+  left: 90px;
+}
+
+.titre {
+  font-size: 20px;
+}
+
+.fa-infinity,
+.fa-apple-alt,
+.fa-feather-alt,
+.fa-pause {
+  background-color: #fdf2e9;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  color: #f1b785;
+
+}
+
+
+
+.phone {
+  width: 250px;
+  height: 400px;
+  position: relative;
+  top: -50px;
+  left: -200px;
+
+
+}
+.fa-check {
+  display: inline-block;
+}
+
+
+
+
+/* start phone partie */
+.para {
+  position: relative;
+  left: 199px;
+}
+.position_block_text_2 {
+  position: absolute;
+  left: 475px;
+}
+
+.para>h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.position_block_text_image_3 {
+  position: relative;
+  left: 249px;
+}
+.arriere_plan_phone {
+  width: 195px;
+  height: 199px;
+  background-color: #fae5d3;
+  border-radius: 50%;
+  border: 25px solid #fdf2e9;
+  position: relative;
+  left: 100px;
+  
+}
+.position_block_text_image {
+  position: relative;
+  left: 190px;
+}
+
+.position_block_text_image_2 {
+  position: relative;
+  left: 100px;
+}
+.phone_1,
+.phone_2,
+.phone_3 {
+  display: flex;
+}
+
+.chifre {
+  font-size: 60px;
+  color: #dddddd;
+  font-weight: bold;
+}
+
+
+/* end phone partie */
+
+/* start image food */
+.principale {
+  background-color: #fdf2e9;
+}
+
+.cadre_image_personne1,
+.cadre_image_personne2 {
+  display: flex;
+  position: relative;
+  left: 35px;
+}
+
+.image_ronde {
+  border-radius: 50%;
+  width: 50px;
+  height: 39px;
+}
+
+.principale,
+.block_principale2 {
+  display: flex;
+
+}
+
+.text {
+  font-size: 13px;
+}
+
+.block_principale2 {
+  position: relative;
+  left: 95px;
+
+}
+.cadre {
+  margin: 19px;
+
+}
+
+.testimonial {
+  position: relative;
+  left: 49px;
+
+}
+.testi {
+  color: chocolate;
+}
+
+.h1 {
+  font-size: 31px;
+}
+
+
+
+/* end image food */
+
+/* price */
+
+.vege {
+  background-color: #94d82d;
+}
+
+.paleo {
+  background-color: #ffd43b;
+}
+
+.vege,
+.paleo {
+  border-radius: 7px;
+
+}
+
+.meal {
+  color: chocolate;
+}
+.card {
+  display: flex;
+  position: relative;
+  left: 239px;
+
+}
+.Omnifood_chooses {
+  font-size: 35px;
+}
+
+.card1,
+.card2 {
+  /* border: 12px solid rgb(238, 235, 235);; */
+  padding: 9px;
+  margin: 23px;
+  box-shadow: 10px 10px 10px rgb(238, 235, 235);
+  box-sizing: content-box;
+
+}
+.see_recipes {
+  text-align: center;
+  color: chocolate;
+}
+.fa-check,
+.fa-times {
+  color: chocolate;
+}
+
+/* end price */
+
+.premier_div {
+  position: relative;
+  left: 145px;
+}
+/* section */
+
+
+
+
+
+/* prix  */
+
+.starter,
+.complete {
+  text-align: center;
+  color: chocolate;
+  font-weight: bold;
+}
+
+
+button>a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.bouton {
+  background-color: chocolate;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  padding: 9px;
+
+}
+
+.prices_include {
+  font-size: 11px;
+  text-align: center;
+}
+
+.prix {
+  font-size: 35px;
+  font-weight: bold;
+  position: relative;
+  left: 95px;
+}
+
+.card_prix {
+  display: flex;
+  position: relative;
+  left: 377px;
+}
+
+.card_prix2 {
+  background-color: #fdf2e9;
+}
+
+.card_prix1 {
+  border: 1px solid orange;
+
+}
+
+.card_prix1,
+.card_prix2 {
+  margin: 17px;
+  padding: 19px;
+
+}
+
+.dernier_div {
+  display: flex;
+  position: relative;
+  left: 219px;
+}
+
+.block_ {
+  padding: 11px;
+}
+
+.form_ {
+  position: relative;
+  left: 200px;
+}
+
+.form_block {
+  display: flex;
+
+}
+
+form {
+  background-color: #e8862f;
+
+}
+
+/* .form_block {
+  display: flex;
+} */
+.opinion {
+  position: relative;
+  top: 79px;
+  left: -429px;
+}
+
+.sign {
+  position: absolute;
+  top: 269px;
+  left: 309px;
+  height: 45px;
+  width: 209px;
+  background-color: #45260a;
+  border-radius: 7px;
+}
+
+input {
+  width: 179px;
+  height: 30px;
+  background-color: white;
+}
+
+.opinion>select {
+  width: 239px;
+  height: 39px;
+  position: relative;
+  top: -9px
+}
+
+.opinion {
+  position: relative;
+  left: 1px;
+  top: -49px;
+}
+
+.fullName {
+  width: 227px;
+}
+
+.email {
+  width: 200px;
+}
+
+.mail {
+  position: relative;
+  left: 309px;
+  top: -55px;
+}
+
+.form_image {
+  position: relative;
+  left: 9px;
+  top: 7px;
+
+
+}
+
+.form_image>img {
+  height: 357px;
+  width: 300px;
+
+}
+
+.footer,
+a {
+  text-decoration: none;
+  color: black;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  position: relative;
+ width: 100%;
+  height: 8vh;
+  top: 0;
+  left: 0;
+  background: #000;
+  color: white;
+  padding: 0 2rem;
+}
+nav{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*.toggle{
+  display: none;
+}*/
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 500px;
+}
+
+.menu li a{
+  color: white;
+  text-decoration: none;
+}
+
+.btn{
+  border: 0;
+  background: pink;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+.btn.btn-secondary{
+  background: transparent;
+  border: 2px solid pink;
+  color: white;
+}
+
+section Hero*/
+.hero{
+  height: 100vh;
+  background: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media all and (max-width :991px) {
+  .toggle{
+    display: block;
+    font-size: 2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
