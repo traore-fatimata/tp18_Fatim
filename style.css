@@ -1,4 +1,9 @@
 
+@media(max-width:1480px) {
+  .flex-container{
+    flex-direction: column;
+  }
+}
 /* end media queries */
 div.scrollmenu {
   /* background-color: #fdf2e9; */
@@ -7,9 +12,9 @@ div.scrollmenu {
   position: relative;
   /* left: 200px; */
 }
-.a_plan{
+/*.a_plan{
   background-color: #fdf2e9;
-}
+}*/
 
 
 
@@ -53,7 +58,10 @@ div.scrollmenu a {
   text-decoration: none;
 
 }
-
+.secti{
+  position: relative;
+  z-index: -20;
+}
 .try {
   background-color: #e8862f;
   border-radius: 3px;
@@ -74,9 +82,10 @@ div.scrollmenu a:hover {
 }
 
 .flex-container>div {
-  margin: 10px;
-  padding: 20px;
+  margin: 30px;
+  padding: 40px;
   font-size: 30px;
+  
 }
 
 img {
@@ -87,6 +96,8 @@ img {
 .i1 {
   position: relative;
   left: 40px;
+  width: 400px;
+  height: auto;
 }
 
 .i2 {
@@ -144,12 +155,13 @@ img {
 
 
 .phone {
-  width: 250px;
-  height: 400px;
+  width: 198px;
+  height: 390px;
   position: relative;
   top: -50px;
   left: -200px;
-
+margin: 40px;
+padding: 60px;
 
 }
 .fa-check {
@@ -178,7 +190,7 @@ img {
   left: 249px;
 }
 .arriere_plan_phone {
-  width: 195px;
+  width: 180px;
   height: 199px;
   background-color: #fae5d3;
   border-radius: 50%;
@@ -480,37 +492,41 @@ a {
   text-decoration: none;
   color: black;
 }
-*{
+/**{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}*/
+html{
+  font-size: 16px;
 }
 header{
-  position: relative;
- width: 100%;
+  position: fixed;
+ width: 98%;
   height: 8vh;
   top: 0;
   left: 0;
   background: #000;
   color: white;
+  z-index: 1;
   padding: 0 2rem;
 }
 nav{
-  width: 100%;
+  width: 90%;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-/*.toggle{
-  display: none;
-}*/
+.toggle{
+  justify-content: space-between;
+}
 .menu{
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  width: 500px;
+  width: 550px;
 }
 
 .menu li a{
@@ -530,7 +546,7 @@ nav{
   color: white;
 }
 
-section Hero*/
+/*section Hero*/
 .hero{
   height: 100vh;
   background: url();
@@ -542,13 +558,24 @@ section Hero*/
   .toggle{
     display: block;
     font-size: 2rem;
+    
   }
 }
-
-
-
-
-
+.ouvrir{
+  display: block;
+}
+.fermé{
+  display: none;
+}
+.open .ouvrir{
+  display: none;
+}
+.open .fermé{
+  display: block;
+}
+.fat{
+  height: 2rem;
+}
 
 
 
